@@ -1,5 +1,5 @@
 local key = _G.Key
-local check = "https://raw.githubusercontent.com/robloxssop/ProjectNebulaHub/refs/heads/main/keycheck.php" .. key
+local check = "https://raw.githubusercontent.com/robloxssop/ProjectNebulaHub/refs/heads/main/848478i6jjhhgsj8837jiwij8387hhi?key=" .. key
 if game:HttpGet(check) == "Whitelisted" then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/robloxssop/ProjectNebulaHub/refs/heads/main/srcipt.lua"))()
 else
